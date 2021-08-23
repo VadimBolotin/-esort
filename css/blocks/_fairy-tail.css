@@ -1,0 +1,51 @@
+
+.fairy-tail__title span{
+  margin-left: 185px;
+}
+.fairy-tail__inner {
+  position: relative;
+}
+.fairy-tail__slider {
+  width: 50%;
+}
+.slick-btn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);/*кнопка по середине*/
+  z-index: 5;
+  cursor: pointer;
+  background-color:transparent;
+  border: none;
+}
+.slick-prev{
+left: 0;
+}
+.slick-next{
+  right: 0;
+}
+.fairy-tail__container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.fairy-tail__body {/*крутое распределение безобозначения margin or padding*/
+  width: 50%;
+  margin-left: auto;
+  padding-left: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+.fairy-tail__text {
+  padding: 10px 0;
+}
+.fairy-tail__body-title {
+  font-weight: 400;
+}

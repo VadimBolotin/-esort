@@ -1,0 +1,31 @@
+.header__top {
+  padding-top: 72px;
+  display: flex;
+  justify-content: space-between;
+
+  font-family: 'RobotoCondensed', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.menu__list-item {
+  display: inline-block;/*  в одну линию*/
+}
+.menu__list-item + .menu__list-item{ /* + соседний элемент */
+  margin-left: 52px;
+}
+.menu__list-link:hover{
+  text-decoration: underline;
+}
+.header-phone{
+  padding-left: 40px;
+  position: relative;
+}
+.header-phone::before {
+  content: '';
+  position: absolute;
+  background-image: url(/images/svg/phone-header-line.svg);
+  width: 30px;
+  height: 30px;
+  left: 0; 
+}

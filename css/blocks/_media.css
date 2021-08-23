@@ -1,0 +1,155 @@
+.none{
+  display: none;
+}
+@media (max-width:1300px){
+  .hotel__title{
+    padding-top: 100px;
+  }
+}
+@media (max-width:1240px){
+  .header__title {
+    padding-top: 120px;
+    font-size: 180px;
+  }
+  .header__title span{
+    font-size: 50px;
+    margin-top: -50px;
+  }
+  
+  .hotel__inner{
+  flex-direction: column;
+  }
+  .hotel__images{
+    object-fit: cover;
+    width: 100%;
+    height: 50vh;
+  }
+  
+}
+@media (max-width:1165px){
+  .hotel__gallery{
+    justify-content: center;
+    align-items: center;
+  }
+  .hotel__gallery a{
+    padding-left: 20px;
+  }
+  .hotel__title{
+    
+    margin-bottom: 30px;
+  }
+}
+@media (max-width:991px){
+  .page-section{
+    margin: 100px 0;
+  }
+  .fairy-tail__container,
+  .our-trip__container{
+    position: static;
+  }
+  .fairy-tail__slider,
+  .our-trip__slider{
+    width: 100%;
+  }
+  .fairy-tail__body
+  {
+    width: 100%;
+    padding-left: 0;
+  }
+  .our-trip__body{
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  
+}
+@media (max-width:840px){
+  .header__title {
+    padding-top: 100px;
+    font-size: 120px;
+  }
+  .header__title span{
+    font-size: 30px;
+    margin-top: -44px;
+  }
+  .header__top{
+    font-size: 20px;
+  }
+  .header-phone::before {
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+  }
+}
+@media (max-width:600px){
+  .header__top{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .menu{
+    width: 100%;
+    text-align: center;
+    margin: 0 0 25px;
+  }
+  .header__title {
+    padding-top: 100px;
+    font-size: 80px;
+    line-height: 1.5;
+  }
+  .header__title span{
+    font-size: 22px;
+    margin-top: -30px;
+    margin-right: 15px;
+  }
+  .fairy-tail__item img{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;/*маштабирование внутри*/
+  }
+  .page-section{
+    margin: 50px 0;
+  }
+  .title{
+    margin-bottom: 25px;
+    font-size: 60px;
+    line-height: 1.8;
+  }
+  .fairy-tail__title span{
+    margin-left: 110px;
+  }
+  .our-trip__slider-item img{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .our-trip__title span{
+    margin-left: 150px;
+  }
+}
+
+@media (max-width:370px){
+  .header__title {
+    padding-top: 100px;
+    font-size: 60px;
+    line-height: 1.7;
+  }
+  .header__title span{
+    font-size: 18px;
+    margin-top: -30px;
+    margin-right: 0;
+  }
+  .menu__list-item + .menu__list-item{
+    margin-left: 18px;
+  }
+  .title{
+    font-size: 50px;
+  }
+  .title span{
+    font-size: 20px;
+  }
+  .fairy-tail__title span{
+    margin-left: 90px;
+  }
+  .our-trip__title span{
+    margin-left: 126px;
+  }
+}

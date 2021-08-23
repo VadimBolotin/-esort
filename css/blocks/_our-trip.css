@@ -1,0 +1,56 @@
+.our-trip__inner {
+  position: relative;
+}
+.our-trip__content{/*ограничение ширины*/
+  width: 50%;
+  padding-right: 55px;
+}
+.our-trip__container {
+  max-width: 1230px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.our-trip__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  align-items: start;
+}
+.our-trip__title span{
+  margin-left: 245px;
+}
+.our-trip__list {
+  margin: 5px 0;
+  
+  font-size: 24px;
+  line-height: 1.2;
+}
+.our-trip__list li:first-child{
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.our-trip__btn {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  
+  border: 1px solid #E2AB3F;
+  padding: 11px 53px;
+  transition: all .3s;
+}
+.our-trip__btn:hover{
+  background-color:#E2AB3F ;
+  color: #FFFFFF;
+  transition: all .3s;
+}
+.our-trip__slider {
+  width: 50%;
+  margin-left: auto;
+}
