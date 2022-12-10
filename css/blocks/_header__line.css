@@ -24,7 +24,7 @@
 .header-phone::before {
   content: '';
   position: absolute;
-  background-image: url(/images/svg/phone-header-line.svg);
+  background-image: url(../../images/svg/phone-header-line.svg);
   width: 30px;
   height: 30px;
   left: 0; 
